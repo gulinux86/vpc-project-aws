@@ -21,4 +21,3 @@ resource "aws_nat_gateway" "khomp_ngw_public_1a" {
 
   }
 }
-
