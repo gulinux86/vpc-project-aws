@@ -1,5 +1,5 @@
 variable "image_id" {
-  default     = "ami-0277155c3f0ab2930"
+  default     = "ami-0277155c3f0ab2930" // altere o ID da AMI AQUI // 
   type        = string
   description = "The id of the machine image (AMI) to use for the server."
 }
