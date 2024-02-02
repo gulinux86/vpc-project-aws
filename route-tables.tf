@@ -22,7 +22,7 @@ resource "aws_route_table" "khomp_private_route_table" {
   vpc_id = aws_vpc.khomp_test_vpc.id
   route {
     cidr_block     = "0.0.0.0/0"
-    nat_gateway_id = aws_nat_gateway.khomp_ngw_public_1a.id
+    nat_gateway_id = aws_nat_gateway.khomp_ngw_private_1a.id
   }
 
   tags = {
